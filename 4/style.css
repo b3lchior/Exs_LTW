@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:400,700');
+
+
+header {
+    background-color: #046DD5;
+    padding: 1em;
+    margin: auto;
+    max-width: 50em;
+    line-height: 15px;
+
+}
+
+h1 > a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;  
+    font-weight: bold;
+    line-height:0;
+
+    
+}
+
+h2 > a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 0;
+    
+}
+
+#signup > a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration:   none;
+}
+
+#hamburger {
+    display: none;
+}
+
+#menu ul {
+    list-style-type: none;
+} 
+
+
+
+#menu ul > li > a {
+    color: black;
+    text-decoration: none;  
+    font-family: 'Poppins', sans-serif;
+    line-height: 3em;
+    
+}
+
+
+#menu ul li:nth-child(1) {
+    background-color: #E1493E;
+    text-align : center;
+}
+
+#menu ul li:nth-child(2) {
+    background-color: #8ABA56;
+    text-align : center;
+}
+
+#menu ul li:nth-child(3) {
+    background-color: #5B4282;
+    text-align : center;
+}
+
+#menu ul li:nth-child(4) {
+    background-color: #FF8932;
+    text-align : center;
+}
+
+#menu ul li:nth-child(5) {
+    background-color: #19B6E9;
+    text-align : center;
+}
+
+#menu ul li:nth-child(6) {
+    background-color: #E84C8B;
+    text-align : center;
+}

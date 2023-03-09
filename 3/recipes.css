@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
+h1 {
+    font-family: 'Imperial Script', cursive;
+    font-size: 8em;
+    font-weight: 100;
+    
+    text-align: center;  
+    margin : 0;
+}
+
+main {
+    background-color: #f8ece4;
+    width: 50%;
+    padding: 1em;
+    margin: auto;
+    max-width: 40em;
+
+    
+}
+
+.sub {
+    font-family: 'Ruda', sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: right;
+    margin : 0;
+    margin-top: 1em;
+}
+hr {
+    border: 1px solid #000;
+}
+#red {
+    background-color: #f8ccc4;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-right-style: solid;
+    border-color: #f88484;
+    border-right-width: 0.45em;
+    border-radius: 20px 0 0 20px;
+    padding: 1em;
+
+}
+
+dt {
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.5em;
+    
+    font-variant-caps: small-caps;
+    
+}
+dd {
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.25em;
+    margin-left : 0;
+}
+
+img {
+    object-fit: contain;
+    width: 100% ;
+    
+}
+
+
+article{
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.25em;
+    line-height: 1.5em ;
+}
+
+#ingredients {
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.25em;
+    line-height: 2em ;
+}
+
+mark {
+    background-color: transparent;
+    color: #88a49c;
+    font-weight: bold;
+}
+
+#method {
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.25em;
+    line-height: 2em ;
+    
+
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      
+   </head>
+   <body>
+        <form action="save.php">
+            Name: <input type="text" name="name" placeholder="your name" required="required"> 
+            
+            <br><br>
+
+            Age: 
+            <input type="radio" name="age" value="0-18"> &lt; 18
+            <input type="radio" name="age" value="19-35"> 19-35
+            <input type="radio" name="age" value="36-48"> 36-48
+            <input type="radio" name="age" value="49-65"> &gt;49 
+
+            <br><br>
+
+            Profession: 
+            <select name="profession" list="professions" value="Professor">
+            <datalist id="professions">
+                <option selected>Professor</option>
+                <option>Student</option>
+                <option>Other</option>
+
+            </datalist>
+
+
+        </form>
+   </body>
+</html>
+
